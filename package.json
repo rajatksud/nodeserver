@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Testing how node works",
+  "main": "index.js",
+    "engines": {
+    "node": "18.12.0",
+    "npm": "8.1.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Rajat Sud",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {}
+}
