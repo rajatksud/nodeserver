@@ -4,15 +4,22 @@
   "description": "Testing how node works",
   "main": "index.js",
   "engines": {
-    "node": "16.1.0",
+    "node": "v18.12.0",
     "npm": "8.1.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Rajat Sud",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20",
+    "passport": "^0.5.3",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
