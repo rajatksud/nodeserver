@@ -4,7 +4,7 @@
   "description": "Testing how node works",
   "main": "index.js",
   "engines": {
-    "node": "18.19.2",
+    "node": "v18.19.2",
     "npm": "8.1.0"
   },
   "scripts": {
